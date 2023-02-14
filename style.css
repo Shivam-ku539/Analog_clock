@@ -1,0 +1,94 @@
+.clockDial{
+    margin: auto;
+    position: relative;
+    background-color: aqua;
+    width: 40vw;
+    height:40vw;
+    border-radius: 50%;
+    border: 10px solid black;
+}
+.dot{
+    top: 49%;
+    right: 48%;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(44, 34, 19);
+    border-radius: 50px;
+    position: absolute;
+}
+.hour{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.brand{
+    top: 15%;
+    left: 42%;
+    position: absolute;
+    color: burlywood;
+}
+.brand1{
+    top: 75%;
+    left: 42%;
+    position: absolute;
+    color: burlywood;
+}
+
+.hour12{
+    top: 0%;
+    right:46%;
+    color: rgb(171, 222, 53);
+    position:absolute;
+}
+
+.hour3{
+    top:47%;
+    right:0%;
+    color: rgb(171, 222, 53);
+    position:absolute;
+}
+.hour6{
+    bottom: 0%;
+    right:48%;
+    color: rgb(171, 222, 53);
+    position: absolute;
+}
+.hour9{
+    top:47%;
+    left: 0%;
+    color: rgb(171, 222, 53);
+    position:absolute;
+}
+.hour-hand{
+    top: 15%;
+    left: 48.5%;
+    width: 3%;
+    height: 35%;
+    background-color: rgb(199, 223, 13);
+    position:absolute;
+    border-radius: 10%;
+    transform-origin: bottom;
+    /* display: none; */
+}
+.min-hand{
+    top: 10%;
+    left: 49%;
+    width: 2%;
+    height: 40%;
+    background-color: rgb(139, 231, 59);
+    position:absolute;
+    border-radius: 10%;
+    transform-origin: bottom;
+    /* display: none; */
+}
+.sec-hand{
+    top: 8%;
+    left: 49.5%;
+    width: 1%;
+    height: 43%;
+    background-color: brown;
+    position:absolute;
+    border-radius: 10%;
+    transform-origin: bottom;
+    /* display: none; */
+}
+
